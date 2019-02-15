@@ -3,12 +3,27 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="freshWorks.AndroidTestNG">
+      <class name="freshWorks.Basic_Func_Test">
         <methods>
-          <include name="beforeMethod"/>
+          <include name="TC002"/>
+          <include name="TC013"/>
+          <include name="TC010"/>
+          <include name="TC001"/>
+          <include name="TC012"/>
+          <include name="TC006"/>
+          <include name="TC003"/>
+          <include name="TC014"/>
+          <include name="TC011"/>
+          <include name="TC005"/>
+          <include name="TC016"/>
+          <include name="TC007"/>
+          <include name="TC004"/>
           <include name="TC015"/>
+          <include name="TC009"/>
+          <include name="TC008"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- freshWorks.AndroidTestNG -->
+      </class> <!-- freshWorks.Basic_Func_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

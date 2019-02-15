@@ -2,72 +2,72 @@
 <testng-results skipped="0" failed="1" ignored="0" total="16" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14359" started-at="2019-02-13T07:31:05Z" finished-at="2019-02-13T07:31:20Z">
+  <suite name="FreshWorks Basic Functionality Suite" duration-ms="15205" started-at="2019-02-15T00:17:51Z" finished-at="2019-02-15T00:18:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14359" started-at="2019-02-13T07:31:05Z" finished-at="2019-02-13T07:31:20Z">
-      <class name="freshWorks.AndroidTestNG">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:freshWorks.AndroidTestNG@1aeed2f]" name="beforeMethod" is-config="true" duration-ms="35120" started-at="2019-02-13T07:30:30Z" finished-at="2019-02-13T07:31:05Z">
+    <test name="Basic Functionality Test Used.ca for Android" duration-ms="15205" started-at="2019-02-15T00:17:51Z" finished-at="2019-02-15T00:18:07Z">
+      <class name="freshWorks.Basic_Func_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="beforeMethod" is-config="true" duration-ms="22626" started-at="2019-02-15T00:17:29Z" finished-at="2019-02-15T00:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC001()[pri:1, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC001" duration-ms="626" started-at="2019-02-13T07:31:05Z" finished-at="2019-02-13T07:31:06Z">
+        <test-method status="PASS" signature="TC001()[pri:1, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC001" duration-ms="1222" started-at="2019-02-15T00:17:51Z" description="Check Login and SignUp are displayed" finished-at="2019-02-15T00:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="TC002()[pri:2, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC002" duration-ms="479" started-at="2019-02-13T07:31:06Z" finished-at="2019-02-13T07:31:06Z">
+        <test-method status="PASS" signature="TC002()[pri:2, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC002" duration-ms="340" started-at="2019-02-15T00:17:53Z" description="Check Skip button is displayed" finished-at="2019-02-15T00:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002 -->
-        <test-method status="PASS" signature="TC003()[pri:3, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC003" duration-ms="242" started-at="2019-02-13T07:31:06Z" finished-at="2019-02-13T07:31:07Z">
+        <test-method status="PASS" signature="TC003()[pri:3, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC003" duration-ms="237" started-at="2019-02-15T00:17:53Z" description="Check indicator icon is displayed" finished-at="2019-02-15T00:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003 -->
-        <test-method status="PASS" signature="TC004()[pri:4, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC004" duration-ms="430" started-at="2019-02-13T07:31:07Z" finished-at="2019-02-13T07:31:07Z">
+        <test-method status="PASS" signature="TC004()[pri:4, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC004" duration-ms="500" started-at="2019-02-15T00:17:53Z" description="Login with FaceBook is displayed and Enabled" finished-at="2019-02-15T00:17:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004 -->
-        <test-method status="PASS" signature="TC005()[pri:5, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC005" duration-ms="216" started-at="2019-02-13T07:31:07Z" finished-at="2019-02-13T07:31:07Z">
+        <test-method status="PASS" signature="TC005()[pri:5, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC005" duration-ms="282" started-at="2019-02-15T00:17:54Z" description="Verify the text Or is diplayed" finished-at="2019-02-15T00:17:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC005 -->
-        <test-method status="PASS" signature="TC006()[pri:6, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC006" duration-ms="232" started-at="2019-02-13T07:31:07Z" finished-at="2019-02-13T07:31:07Z">
+        <test-method status="PASS" signature="TC006()[pri:6, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC006" duration-ms="220" started-at="2019-02-15T00:17:54Z" description="Verify login/email address text can be entered" finished-at="2019-02-15T00:17:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC006 -->
-        <test-method status="PASS" signature="TC007()[pri:7, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC007" duration-ms="607" started-at="2019-02-13T07:31:07Z" finished-at="2019-02-13T07:31:08Z">
+        <test-method status="PASS" signature="TC007()[pri:7, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC007" duration-ms="619" started-at="2019-02-15T00:17:54Z" description="Verify Forgot Password is present" finished-at="2019-02-15T00:17:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007 -->
-        <test-method status="PASS" signature="TC008()[pri:8, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC008" duration-ms="163" started-at="2019-02-13T07:31:08Z" finished-at="2019-02-13T07:31:08Z">
+        <test-method status="PASS" signature="TC008()[pri:8, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC008" duration-ms="175" started-at="2019-02-15T00:17:55Z" description="Verify Sign in button is enabled" finished-at="2019-02-15T00:17:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008 -->
-        <test-method status="PASS" signature="TC009()[pri:9, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC009" duration-ms="4153" started-at="2019-02-13T07:31:08Z" finished-at="2019-02-13T07:31:12Z">
+        <test-method status="PASS" signature="TC009()[pri:9, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC009" duration-ms="3760" started-at="2019-02-15T00:17:55Z" description="Verify Clicking skip button takes you to Search by Region" finished-at="2019-02-15T00:17:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC009 -->
-        <test-method status="PASS" signature="TC010()[pri:10, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC010" duration-ms="175" started-at="2019-02-13T07:31:12Z" finished-at="2019-02-13T07:31:13Z">
+        <test-method status="PASS" signature="TC010()[pri:10, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC010" duration-ms="169" started-at="2019-02-15T00:17:59Z" description="Verify Search field is enabled" finished-at="2019-02-15T00:17:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC010 -->
-        <test-method status="PASS" signature="TC011()[pri:11, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC011" duration-ms="192" started-at="2019-02-13T07:31:13Z" finished-at="2019-02-13T07:31:13Z">
+        <test-method status="PASS" signature="TC011()[pri:11, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC011" duration-ms="657" started-at="2019-02-15T00:17:59Z" description="Enter a province in the Search field." finished-at="2019-02-15T00:18:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC011 -->
-        <test-method status="PASS" signature="TC012()[pri:12, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC012" duration-ms="1839" started-at="2019-02-13T07:31:13Z" finished-at="2019-02-13T07:31:15Z">
+        <test-method status="PASS" signature="TC012()[pri:12, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC012" duration-ms="1469" started-at="2019-02-15T00:18:00Z" description="Verify province searched for is returned and you can click it." finished-at="2019-02-15T00:18:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC012 -->
-        <test-method status="PASS" signature="TC013()[pri:13, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC013" duration-ms="2141" started-at="2019-02-13T07:31:15Z" finished-at="2019-02-13T07:31:17Z">
+        <test-method status="PASS" signature="TC013()[pri:13, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC013" duration-ms="2463" started-at="2019-02-15T00:18:01Z" description="Verify Search icon can be clicked and takes you to search screen." finished-at="2019-02-15T00:18:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC013 -->
-        <test-method status="PASS" signature="TC014()[pri:14, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC014" duration-ms="1800" started-at="2019-02-13T07:31:17Z" finished-at="2019-02-13T07:31:19Z">
+        <test-method status="PASS" signature="TC014()[pri:14, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC014" duration-ms="1805" started-at="2019-02-15T00:18:03Z" description="Verify search query can be entered ie snowboards" finished-at="2019-02-15T00:18:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC014 -->
-        <test-method status="FAIL" signature="TC015()[pri:15, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC015" duration-ms="827" started-at="2019-02-13T07:31:19Z" finished-at="2019-02-13T07:31:19Z">
+        <test-method status="FAIL" signature="TC015()[pri:15, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC015" duration-ms="1063" started-at="2019-02-15T00:18:05Z" description="Verify false positive by expecting snowboarding" finished-at="2019-02-15T00:18:06Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [snowboarding] but found [snowboards]]]>
@@ -80,7 +80,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at freshWorks.AndroidTestNG.TC015(AndroidTestNG.java:173)
+at freshWorks.Basic_Func_Test.TC015(Basic_Func_Test.java:180)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -112,11 +112,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC015 -->
-        <test-method status="PASS" signature="TC016()[pri:16, instance:freshWorks.AndroidTestNG@1aeed2f]" name="TC016" duration-ms="155" started-at="2019-02-13T07:31:19Z" finished-at="2019-02-13T07:31:20Z">
+        <test-method status="PASS" signature="TC016()[pri:16, instance:freshWorks.Basic_Func_Test@1aeed2f]" name="TC016" duration-ms="155" started-at="2019-02-15T00:18:06Z" description="Click item search to display item" finished-at="2019-02-15T00:18:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC016 -->
-      </class> <!-- freshWorks.AndroidTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- freshWorks.Basic_Func_Test -->
+    </test> <!-- Basic Functionality Test Used.ca for Android -->
+  </suite> <!-- FreshWorks Basic Functionality Suite -->
 </testng-results>
